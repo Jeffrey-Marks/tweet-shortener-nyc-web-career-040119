@@ -1,6 +1,5 @@
-def dictionary
-  
-  
+dictionary
+
 
 def word_substitutor(string)
   
