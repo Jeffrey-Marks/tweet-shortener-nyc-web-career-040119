@@ -20,8 +20,7 @@ def word_substituter(tweet)
     i += 1
   end
   
-  tweet = tweet.join(" ")
-  tweet
+  tweet.join(" ")
 end
 
 def bulk_tweet_shortener(tweet_array)
