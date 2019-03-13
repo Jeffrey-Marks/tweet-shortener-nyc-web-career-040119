@@ -16,8 +16,8 @@ def word_substituter(tweet)
   i = 0
 
   while i < tweet.length
-    if dictionary.keys.include?(tweet[i])
-      tweet[i] = dictionary[tweet[i]] #tweet[i] = dictionary(tweet[i])
+    if dictionary.keys.include?(tweet[i].downcase)
+      tweet[i] = dictionary[tweet[i].downcase] #tweet[i] = dictionary(tweet[i])
     end
     i += 1
   end
