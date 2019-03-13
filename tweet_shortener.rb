@@ -10,6 +10,6 @@ Dictionary = {
 }
 
 
-def word_substitutor(string)
+def word_substitutor(tweet)
   
 end
