@@ -1,4 +1,4 @@
-def #word_substituter(tweet)
+def word_substituter(tweet)
   dictionary = {
     "hello" => "hi",
     "to" => "2",
